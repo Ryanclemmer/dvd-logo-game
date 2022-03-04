@@ -55,7 +55,7 @@ document.addEventListener('keydown', function (event) {
                             recent = true;
                             setTimeout(function () {
                                 recent = false;
-                            }, 1000);
+                            }, 000);
                             yv = Math.abs(yv);
                             break;
                         } else {
@@ -69,7 +69,7 @@ document.addEventListener('keydown', function (event) {
                             recent = true;
                             setTimeout(function () {
                                 recent = false;
-                            }, 1000);
+                            }, 000);
                             yv = -yv;
                             break;
                         } else {
@@ -83,7 +83,7 @@ document.addEventListener('keydown', function (event) {
                             recent = true;
                             setTimeout(function () {
                                 recent = false;
-                            }, 1000);
+                            }, 000);
                             xv = -xv;
                             break;
                         } else {
@@ -97,7 +97,7 @@ document.addEventListener('keydown', function (event) {
                             recent = true;
                             setTimeout(function () {
                                 recent = false;
-                            }, 1000);
+                            }, 000);
                             xv = Math.abs(xv);
                             break;
                         } else {
